@@ -2,6 +2,9 @@ using System;
 using System.Security.AccessControl;
 using System.Xml.Linq;
 
+// Exceeds core requirements:
+// added a check to make sure current journal loaded in is saved
+
 class Program
 {
     static void Main(string[] args)
