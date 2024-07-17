@@ -17,7 +17,7 @@ public class Order
         foreach(Product p in _products)
             sum += p.CalculateTotal();
         // ternary expression to add 35 to the total if the customer is not a US resident
-        sum += _customer.USResident() ? 0 : 35;
+        sum += _customer.USResident() ? 5 : 35;
 
         return sum;
     }
